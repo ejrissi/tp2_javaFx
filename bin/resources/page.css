@@ -1,0 +1,125 @@
+/* =============== Base Page Background =============== */
+.page {
+    -fx-background-color: white;
+    -fx-padding: 0;
+}
+
+/* =============== Sidebar (MenuDashboard) =============== */
+.Menudashboard {
+    -fx-background-color: #333333;
+    -fx-background-radius: 0 30 30 0;
+    -fx-border-radius: 0 30 30 0;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.3, 0, 4);
+    -fx-padding: 20;
+}
+
+/* ========= Page Title Style ========== */
+.Menudashboard .label.page-title {
+    -fx-font-size: 20px;
+    -fx-font-family: "Segoe UI Semibold", "Baskerville Old Face", serif;
+    -fx-text-fill: linear-gradient(to right, #ffffff, #dcdcdc);
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 4, 0.3, 0, 2);
+    -fx-alignment: CENTER;
+    -fx-padding: 10 0 15 0;
+    -fx-border-color: rgba(255, 255, 255, 0.3);
+    -fx-border-width: 0 0 2 0;
+    -fx-border-style: solid;
+    -fx-border-insets: 0 10 0 10;
+    -fx-text-alignment: center;
+}
+
+/* ========= User Name (Ahmed) ========== */
+.Menudashboard .label {
+    -fx-font-family: "Segoe UI", "Baskerville Old Face", serif;
+}
+
+
+/* Optional Avatar Circle */
+.Menudashboard .circle-avatar {
+    -fx-shape: "M0,50a50,50 0 1,0 100,0a50,50 0 1,0 -100,0";
+    -fx-background-color: #2980b9;
+    -fx-min-width: 40;
+    -fx-min-height: 40;
+    -fx-max-width: 40;
+    -fx-max-height: 40;
+    -fx-alignment: center;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+}
+
+/* =============== Sidebar Buttons =============== */
+.Menudashboard .button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 10 15;
+    -fx-alignment: CENTER_LEFT;
+    -fx-cursor: hand;
+}
+
+.Menudashboard .button:hover {
+    -fx-background-color: #e6a300;
+    -fx-text-fill: white;
+}
+
+
+/* =============== Log Out Button =============== */
+.Menudashboard .button[text="Log Out"] {
+    -fx-background-color: #e74c3c;
+    -fx-background-radius: 10;
+    -fx-text-fill: white;
+}
+
+
+
+/* =============== Top Nav Bar =============== */
+.nav {
+    -fx-background-color:rgb(90, 87, 87);
+    -fx-background-radius: 12;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 8, 0.2, 0, 2);
+}
+
+/* =============== Main Content Area =============== */
+.content {
+    -fx-background-color: rgb(90, 87, 87);
+    -fx-background-radius: 15;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0.2, 0, 3);
+}
+.button.dash {
+    -fx-background-color: orange;
+    -fx-text-fill: white;  /* optional: makes text more readable */
+    -fx-font-weight: bold; /* optional: makes the font stand out */
+}
+.button.log {
+    -fx-background-color: rgb(249, 53, 53);
+    -fx-text-fill: white;  /* optional: makes text more readable */
+    -fx-font-weight: bold; /* optional: makes the font stand out */
+}
+
+.button.log:hover {
+    -fx-background-color: rgb(255, 0, 0);
+    -fx-text-fill: white;  /* optional: makes text more readable */
+    -fx-font-weight: bold; /* optional: makes the font stand out */
+}
+.label.user-name {
+    -fx-font-size: 20px;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-weight: normal;
+    -fx-font-family: "Segoe UI", "Baskerville Old Face", serif;
+}
+.label.title
+{
+    -fx-font-size: 30px;
+    -fx-text-fill: rgb(0, 0, 0);;
+    -fx-font-weight: normal;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe UI", "Baskerville Old Face", serif;
+}

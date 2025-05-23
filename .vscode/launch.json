@@ -10,7 +10,7 @@
             "request": "launch",
             "mainClass": "example.RegistrationFormApplication",
             "projectName": "tp2_d01ad603",
-             "vmArgs": "--module-path C:/javafx-sdk-21.0.6/lib --add-modules javafx.controls,javafx.fxml"
+           
         },
         {
             "type": "java",

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox fx:id="productCard" prefHeight="150.0" prefWidth="500.0" spacing="10.0" 
+      style="-fx-background-color: #ffffff; -fx-border-color: #cccccc; -fx-border-radius: 5; -fx-background-radius: 5;" 
+      xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="productImage" fitHeight="100.0" fitWidth="100.0" preserveRatio="true" />
+      <VBox spacing="5.0">
+         <children>
+            <Label fx:id="productName" style="-fx-font-weight: bold; -fx-font-size: 14;" text="Product Name" />
+            <Label fx:id="productCategory" style="-fx-font-size: 12;" text="Category" />
+            <Label fx:id="productPrice" style="-fx-font-size: 12;" text="Price" />
+            <Label fx:id="productPreparationTime" style="-fx-font-size: 12;" text="Preparation Time" />
+            <Label fx:id="productDescription" style="-fx-font-size: 12;" text="Description" wrapText="true" />
+            <HBox spacing="10.0" alignment="CENTER_LEFT">
+               <children>
+                  <Spinner fx:id="quantitySpinner" prefWidth="80.0" />
+                  <Button fx:id="addToOrderBtn" mnemonicParsing="false" text="Add to Order" 
+                          style="-fx-background-color: #4CAF50; -fx-text-fill: white;" />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</HBox>
